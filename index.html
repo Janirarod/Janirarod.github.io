@@ -1,2 +1,177 @@
 # Janirarod.github.io
-Portfolio Website
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Janira's Portfolio </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="project3.css">
+
+</head>
+<body data-bs-spy="scroll" data-bs-target="#navbar-site">
+<!-- header -- >
+<div class="name p-5 text-dark text-center" id="home">
+  <h1>My First Bootstrap 5 Page</h1>
+  <p> <i> Resize this responsive page to see the effect!</i></p>
+</div>
+<!-- navigation tabs -->
+<nav id="navbar-site" class="navbar sticky-top navbar-expand-lg navbar-light">
+  <!-- create a hamburger button to control the collapsible top -->
+  <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#collapseTab"
+  aria-control="collapseTab" aria-expanded="false"> <span class="navbar-toggler-icon"> </span> </button>
+  <div class="collapse navbar-collapse" id="collapseTab">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#home">About Janira</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#projects">Web Technology Projects</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#activities">Class Activities</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contact">Contact Janira</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<div class="name p-5 text-dark text-center">
+  <h1>Janira Rodriguez</h1>
+  <p> <i> "Life is journey, not a destination" -- Ralph Emerson</i></p>
+</div>
+<!--body content -->
+<div class="container mt-5">
+  <div class="row">
+    <!-- intro image -->
+    <div class="col-md-5 col-lg-4">
+      <h2 class="subtitle"> <b>Janira Rodriguez</b></h2>
+        <div class="introImage text-center">
+          <img src="me.jpeg" alt="image of an avatar" title="Janira Rodriguez" class="rounded-circle">
+        </div>
+        <p class="major"> Future Motion Designer</p>
+        <i class="department"> Department of Art</i>
+      </div>
+      <!-- intro paragraph -->
+    <div class="col-md-7 col-lg-8 mt-5" id="home">
+      <h2 class="text">Welcome</h2>
+      <p class="text2"> Thank you for taking the time out to visit my personal website.
+      My current Major is Digital Art & Design at Queensborough Community College.
+    I'm also a student in the Internet and Information Technology class in the Engineering Technology department.</p>
+    </div>
+  </div>
+</div>
+<br>
+<div class="name p-4 text-dark text-center" id="projects">
+  <h1>Web Technology Projects</h1>
+</div>
+<div class="row row-cols-1 row-cols-md-2 g-4" id="projects">
+  <div class="col">
+    <div class="card h-100">
+      <img src="dream.jpg" class="card-img-center" alt="picture of sign dream"/>
+      <div class="card-body">
+        <h5 class="card-title"> <a href="https://janirarod.github.io/Project-2/" target="_blank"> HTML Project 2: Micro Agressions</a></h5>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="field.jpg" class="card-img-center" alt="pictures of a field"/>
+      <div class="card-body">
+        <h5 class="card-title"> HTML Project 1: Visit Florida</h5>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+<br>
+<div class="name p-4 text-dark text-center" id="projects">
+  <h1>Class Activities</h1>
+</div>
+<br>
+<div class="container-fluid row" id="activities">
+<div class="card col-lg-3">
+  <img src="code.jpeg" class="card-img-top" alt="image of girl on laptop">
+  <div class="card-body">
+    <h3 class="card-title">HTML</h3>
+    <h5> Class Activities</h5>
+    <p class="card-text">At the beginning of the course I learned to create structires using only HTML.</p>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item"> <a href="file:///Users/jrdq/Documents/ET%20710_Spring%202022/Janira%20Rodriguez_Activity3/activity3%20copy.html" target="_blank"> HTML Basic </a></li>
+  </ul>
+</div>
+<div class="card col-lg-3">
+  <img src="girls.png" class="card-img-top" alt="image of power puff girls">
+  <div class="card-body">
+    <h3 class="card-title"> HTML</h3>
+    <h5> Class Activities</h5>
+    <p class="card-text">After we learned how to build a HTML structure, we were later introduced
+      to CSS and how to style elements.</p>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item"> <a href="file:///Users/jrdq/Documents/ET%20710_Spring%202022/Janira%20Rodrigiuez_Activity%204/colors.html" target="_blank"> 1. Color & Images </a></li>
+    <li class="list-group-item"> <a href="file:///Users/jrdq/Documents/ET%20710_Spring%202022/Activity%205_Animation/animation.html" target="_blank">2. Animation </a></li>
+    <li class="list-group-item"> <a href="file:///Users/jrdq/Documents/ET%20710_Spring%202022/Class%20Activity%206%20/responsive.html" target="_blank"> 3. Responsive Webpage </a></li>
+  </ul>
+</div>
+<div class="card col-lg-3">
+  <img src="book.png" class="card-img-top" alt="image of girl holding a book">
+  <div class="card-body">
+    <h3 class="card-title"> BootStrap 5</h3>
+    <h5> Class Activities</h5>
+    <p class="card-text">Bootstrap is the most popular HTML, CSS and javascript framework for devolping repsonsive, mobile-first websites.</p>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item"> <a href="file:///Users/jrdq/Documents/ET%20710_Spring%202022/Activity_8/activity8.html" target="_blank">1. Basic Informative Webpage </a></li>
+    <li class="list-group-item"> <a href="file:///Users/jrdq/Documents/ET%20710_Spring%202022/activity%209/slideshow.html" target="_blank"> 2. Carousel/Slideshow </a> </li>
+  </ul>
+</div>
+</div>
+
+
+
+<!-- FOOTER -->
+<footer class="footer row mt-5 p-4 text-white text-center" id="contact">
+  <div class="col-lg-3 col-md-6">
+    <p>Phone Number</p>
+    <p> 929 426 7591 </p>
+  </div>
+
+  <div class="col-lg-3 col-md-6">
+    <p>Email</p>
+    <p> <a href="https://outlook.office.com/mail/inbox/id/AAQkAGVkM2Q0ZDliLWM5ZGUtNDA2My05NzJmLTJkMWE0ZmQ0ZjcwNAAQACDhhcVAZEVEhTH89dNxinU%3D"> JANIRA.RODRIGUEZ03@student.qcc.cuny.edu </a> </p>
+  </div>
+
+  <div class="col-lg-3 col-md-6">
+    <p>Address</p>
+    <p> 222-05 56th Ave, Queens, NY, 11364 <a href="https://goo.gl/maps/Sxz6XHW24gSy1wFUA" target="_blank"> 222-05 56th Ave,
+    Queens, NY, 11364 </a> </p>
+  </div>
+
+  <div class="col-lg-3 col-md-6">
+    <p>Office</p>
+    <p> <a href="https://www.qcc.cuny.edu/engtech/index.html" target="_blank"> Technology Building, T-20 </a></p>
+  </div>
+<!-- social media -->
+  <div class="social col-lg-6 mt-5"></div>
+  <h2>Connect Social Media</h2>
+    <figure>
+      <a href="https://www.facebook.com/QueensboroughCUNY" target="_blank"> <img src="facebook.png" alt="Connect to Facebook" title="Keep up with Facebook" width="30px"> </a>
+
+      <a href="https://www.instagram.com/queensboroughcc_cuny/" target="_blank"> <img src="instagram.png" alt="Instagram Logo" title="Connect to Instagram" width="30px"> </a>
+    </figure>
+
+<!-- copyright -->
+<div class="col-lg-12 mt-5">
+Lisa Wu Portfolio @ 2022 by Prof. Wu.
+This webpage is a template to create a portfolio website. All information and
+materials used are only for educational purposes.
+</div>
+</footer>
+
+</body>
+</html>
+
