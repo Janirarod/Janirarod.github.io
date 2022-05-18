@@ -20,6 +20,34 @@
   width: 200px;
   height: 200px;
 }
+.quote{
+  position: sticky;
+  animation-name: slideLeft;
+  animation-duration: 6s;
+  animation-iteration-count: 2;
+  animation-delay: 4s;
+  animation-fill-mode: backwards;
+  animation-direction: alternate;
+  animation-timing-function: ease-out;
+}
+@keyframes slideLeft{
+  from{transform: translateX(0%);}
+  to{transform: translateX(-250%);}
+}
+.quote2{
+  position: sticky;
+  animation-name: slideRight;
+  animation-duration: 4s;
+  animation-iteration-count: 2;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+  animation-direction: alternate;
+  animation-timing-function: ease-out;
+}
+@keyframes slideRight{
+  from{transform: translateX(0%);}
+  to{transform: translateX(-250%);}
+}
 
 
 .major, .department{
@@ -46,6 +74,8 @@
 .card{
   padding-top: 0px;
   padding-left: 10px;
+  height: auto;
+  margin-left: 100px;
 
 }
 
